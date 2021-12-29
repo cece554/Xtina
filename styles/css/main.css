@@ -455,9 +455,8 @@ section.attribution {
         align-self: start;
   }
   .center {
-    text-align: center;
-    padding: 2.5em 3em;
-    font-size: 36px;
+    text-align: left;
+    font-size: 30px;
   }
   .em .container {
     padding: 2em;
@@ -595,7 +594,7 @@ section.attribution {
 
 @media screen and (min-width: 1025px) {
   .center {
-    padding: 1.5em 1.5em;
+    padding: 2.5em 3em;
   }
   .column {
     padding: 0 1em;
@@ -606,6 +605,13 @@ section.attribution {
   }
   .nav {
     padding: 0 1em;
+  }
+  .em {
+    background-color: #171717;
+    color: #e5e5e5;
+  }
+  a:link.black, a.black {
+    color: #e5e5e5;
   }
 }
 
