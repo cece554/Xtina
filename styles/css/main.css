@@ -39,7 +39,7 @@ body {
 }
 
 .nav {
-  padding: 0 1em;
+  padding: 0 .5em;
 }
 
 .nav .container {
@@ -86,9 +86,11 @@ section {
   max-width: 767px;
   padding: 2em 2em;
 }
-
+.column{
+  padding: 0;
+}
 header .container {
-  padding: 1em;
+  padding: .5em;
 }
 
 .lead .container {
@@ -600,18 +602,21 @@ section.attribution {
   }
   .container {
     padding: 1em 1em;
+    max-width: 1920px;
+  }
+  .nav {
+    padding: 0 1em;
   }
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .lead .container {
     aspect-ratio: auto 6 / 3;
+    padding: .5em;
   }
   .container {
-    padding: 0.5em 0.5em;
+    padding: 1em 1em;
   }
-  .column {
-    padding: 0 0.25em;
-  }
+  
 }
 /*# sourceMappingURL=main.css.map */
