@@ -607,7 +607,7 @@ section.attribution {
     display: flex;
     justify-content: center;
   .nav {
-    padding: 0 1.5em;
+    padding: 0 1.25em;
   }
   .em {
     background-color: #171717;
