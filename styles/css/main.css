@@ -603,8 +603,11 @@ section.attribution {
     padding: 1em 1em;
     
   }
+  .container-wrap{
+    display: flex;
+    justify-content: center;
   .nav {
-    padding: 0 1em;
+    padding: 0 1.5em;
   }
   .em {
     background-color: #171717;
@@ -613,6 +616,7 @@ section.attribution {
   a:link.black, a.black {
     color: #e5e5e5;
   }
+  .
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
