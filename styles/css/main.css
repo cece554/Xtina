@@ -84,7 +84,7 @@ section {
 
 .container {
   max-width: 767px;
-  padding: .5em 5em;
+  padding: .5em .5em;
 }
 .column{
   padding: 0;
