@@ -84,7 +84,7 @@ section {
 
 .container {
   max-width: 767px;
-  padding: 2em 2em;
+  padding: .5em 5em;
 }
 .column{
   padding: 0;
@@ -613,6 +613,16 @@ section.attribution {
   a:link.black, a.black {
     color: #e5e5e5;
   }
+}
+
+@media screen and (min-width: 1320px) {
+  .lead .container {
+    aspect-ratio: 3.9 / 3;
+  }
+  .column-right{
+    padding: 0;
+  }
+  
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
