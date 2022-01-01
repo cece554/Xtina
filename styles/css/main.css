@@ -84,7 +84,7 @@ section {
 
 .container {
   max-width: 767px;
-  padding: .5em .5em;
+  padding: 2em 2em;
 }
 .column{
   padding: 0;
@@ -601,13 +601,10 @@ section.attribution {
   }
   .container {
     padding: 1em 1em;
-    
+    max-width: 1920px;
   }
-  .container-wrap{
-    display: flex;
-    justify-content: center;
   .nav {
-    padding: 0 1.25em;
+    padding: 0 1em;
   }
   .em {
     background-color: #171717;
@@ -616,7 +613,6 @@ section.attribution {
   a:link.black, a.black {
     color: #e5e5e5;
   }
-  .
 }
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
