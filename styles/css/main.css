@@ -84,7 +84,7 @@ section {
 
 .container {
   max-width: 767px;
-  padding: .5em .5em;
+  padding: 1em .75em;
 }
 .column{
   padding: 0;
@@ -105,7 +105,7 @@ header .container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 1em 2em 1em;
+  padding: 0 .5em 1em .5em;
   text-transform: uppercase;
   width: 100%;
 }
