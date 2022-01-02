@@ -356,8 +356,12 @@ input[type="email"]:placeholder-shown,
 section.attribution {
   background: #e5e5e5;
   font-size: 12px;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
+.copy{
+  color: #171717;
+}
 .book img,
 .bio img {
   display: none;
@@ -453,6 +457,20 @@ section.attribution {
   .lead .container {
     aspect-ratio: auto 3.75 / 3;
     padding: 0;
+    
+    @supports not (aspect-ratio: auto 3.75 / 3 {
+  .element::before {
+    float: left;
+    padding-top: 100%;
+    content: "";
+      }
+  }
+
+  .element::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
   }
   .bio .container {
     padding: 0;
@@ -572,6 +590,12 @@ section.attribution {
   .lead .container {
     aspect-ratio: auto 2.46 / 3;
     padding: 0;
+       @supports not (aspect-ratio: auto 2.46 / 3 {
+  .element::before {
+    float: left;
+    padding-top: 100%;
+    content: "";
+      }
   }
   .top .column-left {
     max-width: 60vw;
@@ -624,6 +648,12 @@ section.attribution {
 @media screen and (min-width: 1500px) {
   .lead .container {
     aspect-ratio: 3.9 / 3;
+      @supports not (aspect-ratio: 3.9 / 3 {
+  .element::before {
+    float: left;
+    padding-top: 100%;
+    content: "";
+      }
   }
   .column-right{
     padding: 0;
@@ -634,7 +664,14 @@ section.attribution {
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .lead .container {
     aspect-ratio: auto 6 / 3;
+      @supports not (aspect-ratio: auto 6 / 3 {
+  .element::before {
+    float: left;
+    padding-top: 100%;
+    content: "";
+      }
     padding: .5em;
+    
   }
   .container {
     padding: 1em 1em;
