@@ -358,6 +358,8 @@ section.attribution {
   font-size: 12px;
   flex-direction: row;
   justify-content: space-between;
+  padding: .5em;
+  
 }
 .copy{
   color: #171717;
