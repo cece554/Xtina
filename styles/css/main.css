@@ -673,8 +673,11 @@ section.attribution img{
 }
 
 @media screen and (min-width: 1500px) {
-  .lead .container {
-    aspect-ratio: 5 / 4;
+    section.lead{
+    height: 54%;
+  }
+  .lead .container{
+    height: 100%;
   }
   .column-right{
     padding: 0;
