@@ -717,8 +717,8 @@ section.attribution img{
 
 @media screen and (min-width: 420px) and (max-width: 767px) {
   .lead .container {
-    aspect-ratio: 2.4 / 3;
-    padding: .5em;
+    aspect-ratio: 4 / 2;
+    padding: .5em .5em 1em .5em;
   }
   .container {
     padding: 1em 1em;
@@ -753,7 +753,7 @@ section.attribution img{
     clear: both;
   }
 }
-@supports not (aspect-ratio: 2.4 / 3) {
+@supports not (aspect-ratio: 4 / 2) {
   .lead .container::before {
     float: left;
     padding-top: 100%;
