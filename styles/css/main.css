@@ -686,7 +686,9 @@ section.attribution img{
     padding: 0 1em;
   }
   .column-wrap {
-    padding: em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
   }
   .column-left {
     padding: 1em 1em 2em 1em;
