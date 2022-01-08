@@ -720,42 +720,27 @@ section.attribution img{
 }
 
 @supports not (aspect-ratio: 5 / 4) {
-  .lead .container::before {
-    float: left;
-    padding-top: 100%;
-    content: "";
+  section.lead{
+    height: 54%;
   }
-
-  .lead .container::after {
-    display: block;
-    content: "";
-    clear: both;
+  .lead .container{
+    height: 100%;
   }
 }
 
 @supports not (aspect-ratio: 1.6 / 2) {
-  .lead .container::before {
-    float: left;
-    padding-top: 100%;
-    content: "";
+  section.lead{
+    height: 54%;
   }
-
-  .lead .container::after {
-    display: block;
-    content: "";
-    clear: both;
+  .lead .container{
+    height: 100%;
   }
 }
 @supports not (aspect-ratio: 4 / 2) {
-  .lead .container::before {
-    float: left;
-    padding-top: 100%;
-    content: "";
+  section.lead{
+    height: 24%;
   }
-
-  .lead .container::after {
-    display: block;
-    content: "";
-    clear: both;
+  .lead .container{
+    height: 100%;
   }
 }
