@@ -738,7 +738,7 @@ section.attribution img{
 }
 @supports not (aspect-ratio: 4 / 2) {
   section.lead{
-    height: 24%;
+    height: 54%;
   }
   .lead .container{
     height: 100%;
