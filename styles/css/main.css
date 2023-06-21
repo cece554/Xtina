@@ -785,3 +785,22 @@ align-items: none;
     height: 100%;
   }
 }
+@media (max-width: 767px) {
+      .video-container video {
+        display: none;
+      }
+
+      .video-container img {
+        display: block;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .video-container video {
+        display: block;
+      }
+
+      .video-container img {
+        display: none;
+      }
+    }
